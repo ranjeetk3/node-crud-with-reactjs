@@ -1,0 +1,28 @@
+{
+  "name": "node-CRUD",
+  "version": "1.0.0",
+  "description": "Node CRUD",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "Notes"
+  ],
+  "author": "ankit chetu",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.11"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
+  }
+}
